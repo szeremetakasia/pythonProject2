@@ -11,5 +11,5 @@ def space_occupied(path='C:\\Users\szere\OneDrive\Obrazy'):
 
     return size
 
-Space occupied - exercise
+
 print('Total space occupied by this directory is: ', space_occupied(), 'bytes')
