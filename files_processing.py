@@ -9,9 +9,9 @@ print(tempfile.gettempdir())
 
 print(os.listdir())
 
-print(os.path.exists('c:\\Users'))
+print(os.path.exists('C:\\Users\szere\OneDrive'))
 
-print(os.path.isdir('c:\\Users'))
+print(os.path.isdir('C:\\Users\szere\OneDrive'))
 
 # Homework: write a program that scans any folder and should return the information
 # about the total size of this folder
