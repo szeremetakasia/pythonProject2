@@ -1,0 +1,24 @@
+Objective:
+The objective of the project is to predict whether a startup turns into a success or a failure. The success of a start up is defined when the company's founders are offered a large sum of money through the process of M&A (Merger and Acquisition) or an IPO (Initial Public Offering). A company would be considered as failed if it had to be shutdown.
+For the purpose of this project two data models were built: a logistic regression and a decision tree (CART).
+
+Data:
+Data set contains information about US companies operating between 2005 and 2012. Initially, there are 49 columns, out of which 14 numerical variables are used to build the models.
+
+Dictionary of some variables:
+
+age_first_funding_year - company's age when it received first founding
+age_last_funding_year - company's age when it received last founding
+age_first_milestone_year - company's age when it received its first milestone
+age_last_milestone_year	- company's age when it received its last milestone
+relationships - the number of contacts that the investors had with other companies
+milestones - total number of company's milestones
+has_VC - Venture Capitalist
+has_angel - Angel Investment
+has_roundA - Series A, funding
+has_roundB - Series B funding
+has_roundC - Series C funding
+has_roundD - Series D funding
+is_top500 - did a top 500 investor invest in the company?
+label/success	- binary of status (target)
+avg participants - avg number of founders and investors
