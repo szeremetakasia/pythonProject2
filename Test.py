@@ -1,8 +1,4 @@
+import pandas as pd
 
-
-# c = Customer('Kasia', 'Szeremeta', 'szeremeta.kasia@gmail.com')
-# print(c)
-
-# a = Account(c)
-# a.deposit (100000.00)
-# print(a)
+df = pd.read_csv(r'c:\\Users\szere\OneDrive\Pulpit\Master topics\Startup-Success-Prediction-master\d3\data\train-data.csv')
+print (df)
