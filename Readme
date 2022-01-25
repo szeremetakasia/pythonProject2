@@ -1,6 +1,6 @@
 Objective:
 The objective of the project is to predict whether a startup turns into a success or a failure. The success of a start up is defined when the company's founders are offered a large sum of money through the process of M&A (Merger and Acquisition) or an IPO (Initial Public Offering). A company would be considered as failed if it had to be shutdown.
-For the purpose of this project two data models were built: a logistic regression and a decision tree (CART).
+For the purpose of this project three data models were built: logistic regression, decision tree (CART) and Random Forest.
 
 Data:
 Data set contains information about US companies operating between 2005 and 2012. Initially, there are 49 columns, out of which 14 numerical variables are used to build the models.
